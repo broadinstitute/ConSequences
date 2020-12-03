@@ -1,0 +1,14 @@
+name: ConSequences
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.6.7
+  - biopython=1.76
+  - pysam=0.8.3
+  - geopy=1.20.0
+  - bioconda::bowtie2=2.3.4.3
+  - bioconda::samtools=0.1.19
+  - bioconda::blast=2.7.1
+  - bioconda::kmer-jellyfish=2.3.0

@@ -1,0 +1,2 @@
+Reference MSA	Total k-mers missed	Total k-mers missed (ignoring starting/ending 100 bp of MSA)	Number of k-mers assessed
+/gsap/archive-bacterial/Projects/CRE-Signatures/Analysis_of_Shared_Segments/Run_Tests_of_Consequences/Segments_on_MGH7_Scaffold2/Segment_1.msa	0	0	18972

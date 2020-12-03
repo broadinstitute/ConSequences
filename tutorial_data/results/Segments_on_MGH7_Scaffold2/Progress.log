@@ -1,0 +1,47 @@
+2020-12-03 03:54 - INFO - Saving parameters for future provedance.
+2020-12-03 03:54 - INFO - Done saving parameters!
+2020-12-03 03:54 - INFO - Running preparation of FASTA inputs to account for circularity/completeness of scaffolds.
+2020-12-03 03:54 - INFO - Reference scaffold Ente_cloa_MGH7|MGH7_2_v3 is regarded as complete and circular.
+2020-12-03 03:54 - INFO - Query scaffold Ente_cloa_complex_MGH_3_V1|MGH3_2_v3 is regarded as complete and circular.
+2020-12-03 03:54 - INFO - Query scaffold Ente_cloa_MGH7|MGH7_2_v3 is regarded as complete and circular.
+2020-12-03 03:54 - INFO - Query scaffold Ente_cloa_complex_MGH_14_V1|MGH14_2_v4 is regarded as complete and circular.
+2020-12-03 03:54 - INFO - Query scaffold Ente_cloa_complex_MGH_14_V1|MGH14_3_v4 is regarded as complete and circular.
+2020-12-03 03:54 - INFO - Query scaffold Kleb_pneu_MGH_39_V1|MGH39_2_v4 is regarded as complete and circular.
+2020-12-03 03:54 - INFO - Query scaffold Kleb_pneu_MGH_39_V1|MGH39_3_v4 is regarded as complete and circular.
+2020-12-03 03:54 - INFO - Query scaffold Kleb_pneu_MGH83|MGH83_2_v3 is regarded as complete and circular.
+2020-12-03 03:54 - INFO - Query scaffold Kleb_pneu_MGH83|MGH83_3_v3 is regarded as complete and circular.
+2020-12-03 03:54 - INFO - Query scaffold Kleb_pneu_MGH83|MGH83_4_v3 is regarded as complete and circular.
+2020-12-03 03:54 - INFO - Query scaffold Kleb_pneu_MGH83|MGH83_5_v3 is regarded as complete and circular.
+2020-12-03 03:54 - INFO - Query scaffold Citr_sp._MGH103|MGH103_2_v3 is regarded as complete and circular.
+2020-12-03 03:54 - INFO - Query scaffold Citr_sp._MGH103|MGH103_3_v3 is regarded as complete and circular.
+2020-12-03 03:54 - INFO - Query scaffold Citr_sp._MGH105|MGH105_2_v3 is regarded as complete and circular.
+2020-12-03 03:54 - INFO - Query scaffold Citr_sp._MGH105|MGH105_3_v3 is regarded as complete and circular.
+2020-12-03 03:54 - INFO - Query scaffold Citr_freu_MGH279|MGH279_2_v3 is regarded as complete and circular.
+2020-12-03 03:54 - INFO - Query scaffold Citr_freu_MGH279|MGH279_3_v3 is regarded as complete and circular.
+2020-12-03 03:54 - INFO - Query scaffold Citr_freu_MGH279|MGH279_4_v3 is regarded as complete and circular.
+2020-12-03 03:54 - INFO - Query scaffold Citr_freu_MGH281|MGH281_2_v3 is regarded as complete and circular.
+2020-12-03 03:54 - INFO - Query scaffold Citr_freu_MGH281|MGH281_3_v3 is regarded as complete and circular.
+2020-12-03 03:54 - INFO - Query scaffold Citr_freu_MGH281|MGH281_4_v3 is regarded as complete and circular.
+2020-12-03 03:54 - INFO - Query scaffold Citr_freu_MGH281c|MGH281c_2_v3 is regarded as complete and circular.
+2020-12-03 03:54 - INFO - Query scaffold Citr_freu_MGH281c|MGH281c_3_v3 is regarded as complete and circular.
+2020-12-03 03:54 - INFO - Query scaffold Citr_freu_MGH283|MGH283_2_v3 is regarded as complete and circular.
+2020-12-03 03:54 - INFO - Query scaffold Citr_freu_MGH283|MGH283_3_v3 is regarded as complete and circular.
+2020-12-03 03:54 - INFO - Query scaffold Citr_sp._BIDMC108_V1|BIDMC108_2_v2 is regarded as complete and circular.
+2020-12-03 03:54 - INFO - Query scaffold Citr_sp._BIDMC108_V1|BIDMC108_3_v2 is regarded as complete and circular.
+2020-12-03 03:54 - INFO - Done prepping FASTA inputs!
+2020-12-03 03:54 - INFO - Running BLASTn analysis.
+2020-12-03 03:54 - INFO - Executing the command: blastn -subject /gsap/archive-bacterial/Projects/CRE-Signatures/Analysis_of_Shared_Segments/Run_Tests_of_Consequences/Segments_on_MGH7_Scaffold2/Processed_Input_FASTA/reference_scaffold.fasta -query /gsap/archive-bacterial/Projects/CRE-Signatures/Analysis_of_Shared_Segments/Run_Tests_of_Consequences/Segments_on_MGH7_Scaffold2/Processed_Input_FASTA/query_scaffolds.fasta -evalue 1e-5 -max_target_seqs 100000 -outfmt 5 -out /gsap/archive-bacterial/Projects/CRE-Signatures/Analysis_of_Shared_Segments/Run_Tests_of_Consequences/Segments_on_MGH7_Scaffold2/BLAST_results.txt
+2020-12-03 03:54 - INFO - Successfully ran BLASTn analysis.
+2020-12-03 03:54 - INFO - Running Sliding Window Analysis (SWA) to Identify Conserved and Contiguous Windows Along Reference.
+2020-12-03 03:54 - INFO - Parsing BLASTn XML results file.
+2020-12-03 03:54 - INFO - Processed - 50 HSPs in consideration.
+2020-12-03 03:54 - INFO - Starting sliding window analysis (SWA)!
+2020-12-03 04:13 - INFO - SWA Results - Total windows: 4171
+2020-12-03 04:13 - INFO - SWA Results - Self-mapping windows: 4171
+2020-12-03 04:13 - INFO - SWA Results - Multi-mapping windows: 3193
+2020-12-03 04:13 - INFO - Successfully ran SWA analysis.
+2020-12-03 04:13 - INFO - Starting clustering of windows into adjacent groupings.
+2020-12-03 04:19 - INFO - Successfully clustered windows into adjacent groupings.
+2020-12-03 04:19 - INFO - Delineating segments on sliding window anlaysis.
+2020-12-03 04:22 - INFO - Successfully delineated segments from window clusters.
+2020-12-03 04:22 - INFO - Program successfully ran! Exiting!

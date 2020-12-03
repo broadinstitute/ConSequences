@@ -1,0 +1,9 @@
+Reference FASTA file: /gsap/archive-bacterial/Projects/CRE-Signatures/Analysis_of_Shared_Segments/Run_Tests_of_Consequences/Inputs/MGH7_scaffold2.fasta
+Query Multi-FASTA file: /gsap/archive-bacterial/Projects/CRE-Signatures/Analysis_of_Shared_Segments/Run_Tests_of_Consequences/Inputs/All_Plasmids_from_Twelve_Isolates.fasta
+Output Directory: /gsap/archive-bacterial/Projects/CRE-Signatures/Analysis_of_Shared_Segments/Run_Tests_of_Consequences/Segments_on_MGH7_Scaffold2/
+Reference is Circular?: True
+Query Scaffolds which are Circular file: /gsap/archive-bacterial/Projects/CRE-Signatures/Analysis_of_Shared_Segments/Run_Tests_of_Consequences/Inputs/Circular_Plasmid_Scaffolds.txt
+Scan Window Size: 100
+Scan Window Step: 10000
+Matches Percentage: 99.0
+Unfilter Segments: False
