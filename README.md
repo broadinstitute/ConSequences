@@ -16,11 +16,11 @@ For documentaion on how to use ConSequences and information on its underlying as
 
 To install ConSequences, please take the following steps:
 
-1. Clone this git repository:
+1. Clone this git repository and cd into it:
 
-`git clone git@github.com:broadinstitute/ConSequences.git`
+`git clone https://github.com/broadinstitute/ConSequences && cd ConSequences/`
 
-2. Setup the conda environment using the yml file. 
+2. Setup the conda environment using the yml file (change `/path/to/conda_environment/` accordingly to where you want to setup the conda environment). 
 
 `conda env create -f ConSequences_Environment.yml -p /path/to/conda_environment/`
 
